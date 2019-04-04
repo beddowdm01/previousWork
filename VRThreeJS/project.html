@@ -1,0 +1,118 @@
+<html>
+
+<head>
+
+<title>
+three.js Exercise
+</title>
+
+<style>
+body { margin: 0; }
+canvas { width: 100%; height: 100% }
+</style>
+
+</head>
+
+<body>
+<script src="https://threejs.org/build/three.js"></script>
+<script src="js/DeviceOrientationControls.js"></script>
+<script src="js/StereoEffect.js"></script>
+<style type="text/css">
+    body {
+      width: 100%;
+      height: 100%;
+      color: white;
+    }
+    #screenLeft {
+     position: absolute;
+     bottom: 10px;
+     left: 25%;
+     width: 40%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     font:sans-serif;
+    }
+     #screenRight {
+     position: absolute;
+     bottom: 10px;
+     left: 75%;
+     width: 40%;
+     float: right;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     font:sans-serif;
+    }
+	#findL{
+	 position: absolute;
+	 width:30%;
+     text-align: left;
+     font:sans-serif;
+	}
+	#findR{
+	 position: absolute;
+	 left: 50%;
+	 width: 30%;
+     text-align: left;
+     font:sans-serif;
+	}
+    #earthInfoL, #sunInfoL, #moonInfoL, #tornadoInfoL, #volcanoInfoL, #planeInfoL, #earthInfoR, #sunInfoR, #moonInfoR, #tornadoInfoR, #volcanoInfoR, #planeInfoR {
+       color: white; 
+       visibility: hidden;
+       display: block;
+    }
+</style>
+<div id="screenLeft">
+<p id="earthInfoL">This is a planet! 
+Planets orbit stars, our solar systems star is 
+known as the Sun. This planet has 3 different land types:
+ grass, snow and dirt.
+See if you can find the volcano, tornado and plane! </p>
+</div>
+<div id="screenLeft">
+<p id="sunInfoL">This is a star, it is a huge ball of gas
+ that is at the centre of the solar system. It is so
+ big that its gravity causes everything in the solar
+ system to orbit it! Our solar systems star is known as the Sun!</p>
+</div>
+<div id="screenLeft">
+<p id="moonInfoL">This is the planets moon. Moons orbit planets
+because they tend to be smaller than the planet. Our moon
+orbits the Earth every 27 earth days! Due to the lack of an atmosphere
+our moon has lots of craters because it cannot protect itself
+from asteroids and comets.</p>
+</div>
+<div id="screenRight">
+<p id="earthInfoR">This is a planet! 
+Planets orbit stars, our solar systems star is 
+known as the Sun. This planet has 3 different land types:
+ grass, snow and dirt.
+See if you can find the volcano, tornado and plane! </p>
+</div>
+<div id="screenRight">
+<p id="sunInfoR">This is a star, it is a huge ball of gas
+ that is at the centre of the solar system. It is so
+ big that its gravity causes everything in the solar
+ system to orbit it! Our solar system's star is known as the Sun!</p>
+</div>
+<div id="screenRight">
+<p id="moonInfoR">This is the planets moon. Moons orbit planets
+because they tend to be smaller than the planet. Our moon
+orbits the Earth every 27 earth days! Due the lack of atmosphere
+our moon has lots of craters because it cannot protect itself
+from asteroids and comets.</p>
+</div>
+
+<div id = "findL">
+<p id="tornadoInfoL">Well done! You found the tornado!</p>
+<p id="planeInfoL">Well done! You found the plane!</p>
+<p id="volcanoInfoL">Well done! You found the volcano!</p>
+</div>
+<div id = "findR">
+<p id="tornadoInfoR">Well done! You found the tornado!</p>
+<p id="planeInfoR">Well done! You found the plane!</p>
+<p id="volcanoInfoR">Well done! You found the volcano!</p>
+</div>
+<script src="earthscript.js"></script>
+</body>
+
+</html>
