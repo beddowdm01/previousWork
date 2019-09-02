@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/mainMenu.unity
+    guid: e27340e2bb9a29c45b1419f5e237fd89
+  - enabled: 1
+    path: Assets/Scenes/PreInfo01.unity
+    guid: ca2d900300cb128458e62cc727082b31
+  - enabled: 1
+    path: Assets/Scenes/Level01.unity
+    guid: 9c49693108db9c14ab25540e6b1e3a1d
+  - enabled: 1
+    path: Assets/Scenes/PreInfo02.unity
+    guid: cb5f6838cf0bb2b41a79c90277d849b4
+  - enabled: 1
+    path: Assets/Scenes/Level02.unity
+    guid: 9621b24e426ed484e9f72568365be04c
+  - enabled: 1
+    path: Assets/Scenes/PreInfo03.unity
+    guid: 50c8651bc8f8c8a4c856fbcd761294f6
+  - enabled: 1
+    path: Assets/Scenes/Level03.unity
+    guid: cfea7f2309b7a1145a933ab0048ad9f6
+  - enabled: 1
+    path: Assets/Scenes/PreInfo04.unity
+    guid: 5348a8bc3c8515c49981a455ff0d0337
+  - enabled: 1
+    path: Assets/Scenes/Level04.unity
+    guid: 1b1526484ee18d240a0e079a2dff72e1
+  - enabled: 1
+    path: Assets/Scenes/PreInfo05.unity
+    guid: 63cdf0c92a838904ca70a56b08b5034d
+  - enabled: 1
+    path: Assets/Scenes/Level05.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PreInfo06.unity
+    guid: c0acb0ccc7c502f4d930fe3186a93853
+  - enabled: 1
+    path: Assets/Scenes/Level06.unity
+    guid: 5ae331b721d23b04d8c02f0b7da9b118
+  - enabled: 1
+    path: Assets/Scenes/PreInfo07.unity
+    guid: 05c85712381681743a7190d88e4d1243
+  - enabled: 1
+    path: Assets/Scenes/Level07.unity
+    guid: a7d6a980d1b570649972cfa58b0c2b5e
+  - enabled: 1
+    path: Assets/Scenes/PreInfo08.unity
+    guid: 1c234a02342313844a3e8f4f49495240
+  - enabled: 1
+    path: Assets/Scenes/Level08.unity
+    guid: f7cd939074647c342abe521d43533e7e
+  - enabled: 1
+    path: Assets/Scenes/PreInfo09.unity
+    guid: 689106ea47ac4ee4aba1e760d1c58cc0
+  - enabled: 1
+    path: Assets/Scenes/Level09.unity
+    guid: 873e832683300b3429f04af6a8f00097
+  - enabled: 1
+    path: Assets/Scenes/PreInfo10.unity
+    guid: 9f6e3de085d66fd4e81e989307bbc828
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: 0695751f193329640ab5c1c701db548c
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: baaed4968ae1c984c8c788bacc128ac4
+  m_configObjects: {}
