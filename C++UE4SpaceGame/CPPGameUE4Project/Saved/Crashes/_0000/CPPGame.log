@@ -1,0 +1,6 @@
+Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+Not using cached read wrapper
+Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+Stats thread started at 0.273742
+Failed to load GFSDK_Aftermath_Lib.x64.dll
+Windows GetLastError: The operation completed successfully. (0)
