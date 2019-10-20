@@ -6,7 +6,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseScreen;
-
+    public GameObject levelSelect;
 
 
     void Update()
@@ -41,5 +41,14 @@ public class PauseMenu : MonoBehaviour
     public void Quit()//Method to quit the game
     {
         Application.Quit();
+    }
+
+    public void SelectLevel()
+    {
+        if (levelSelect && pauseScreen)
+        {
+            levelSelect.SetActive(true);
+            pauseScreen.SetActive(false);
+        }
     }
 }
