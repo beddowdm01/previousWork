@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2021179977975704777}
   - component: {fileID: 2829721777277542153}
   - component: {fileID: 5538523902576171880}
+  - component: {fileID: 4632364465088332023}
   - component: {fileID: 3749999880344821605}
-  - component: {fileID: 6437908807022118615}
   - component: {fileID: 8621445002605591956}
   m_Layer: 0
   m_Name: bb3
@@ -50,6 +50,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -132,6 +133,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 2.3}
   m_EdgeRadius: 0
+--- !u!114 &4632364465088332023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825724015224065983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee36bc5b24b4444084746fe5f69f166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorHeight: -49
+  roofHeight: 34
 --- !u!114 &3749999880344821605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,20 +164,6 @@ MonoBehaviour:
   direction: {x: 0, y: 0}
   tt: {x: 0, y: 0}
   range: 20
---- !u!114 &6437908807022118615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3825724015224065983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eee36bc5b24b4444084746fe5f69f166, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floor: -33
-  roof: 33
 --- !u!114 &8621445002605591956
 MonoBehaviour:
   m_ObjectHideFlags: 0

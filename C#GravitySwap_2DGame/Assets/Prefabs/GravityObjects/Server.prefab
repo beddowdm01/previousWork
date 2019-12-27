@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2212038618912404963}
   - component: {fileID: 2212038618912404962}
   - component: {fileID: 2212038618912404961}
+  - component: {fileID: 5783853164526722278}
   - component: {fileID: 2212038618912404973}
-  - component: {fileID: -1968233660888249558}
   m_Layer: 0
   m_Name: Server
   m_TagString: Wall
@@ -71,6 +71,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -136,6 +137,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fx: {fileID: 4736471530978286862, guid: eba568583ae8c014496d5ea1f8f1dabc, type: 3}
+--- !u!114 &5783853164526722278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2212038618912404967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee36bc5b24b4444084746fe5f69f166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorHeight: -49
+  roofHeight: 34
 --- !u!61 &2212038618912404973
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -162,17 +177,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 4.4}
   m_EdgeRadius: 0
---- !u!114 &-1968233660888249558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2212038618912404967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eee36bc5b24b4444084746fe5f69f166, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floor: -33
-  roof: 33

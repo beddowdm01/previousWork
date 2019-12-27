@@ -5,9 +5,9 @@ using UnityEngine;
 public class HeightClamp : MonoBehaviour
 {
     [SerializeField]
-    private float floorHeight = -10f;//floor and roof location variables
+    private float floorHeight = -49f;//floor and roof location variables
     [SerializeField]
-    private float roofHeight = 10f;
+    private float roofHeight = 34f;
 
     private Rigidbody2D rb;
 

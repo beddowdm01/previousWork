@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6057991572159623228}
   - component: {fileID: 429858770374473429}
   - component: {fileID: -324105630467053489}
-  - component: {fileID: -828851135393899093}
+  - component: {fileID: 523342014398710306}
   m_Layer: 0
   m_Name: vialP
   m_TagString: Wall
@@ -50,6 +50,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -162,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fx: {fileID: 4736471530978286862, guid: eba568583ae8c014496d5ea1f8f1dabc, type: 3}
---- !u!114 &-828851135393899093
+--- !u!114 &523342014398710306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,5 +175,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eee36bc5b24b4444084746fe5f69f166, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floor: -33
-  roof: 33
+  floorHeight: -49
+  roofHeight: 34
