@@ -3,4 +3,6 @@ it is a 2D runner game where you change the gravity of the entire game to naviga
 through the lab. Please excuse if some assets are poorly done
 art isnt my best quality!
 
+Spacebar changes gravity.
+
 Check the build folder for a runnable executable.
