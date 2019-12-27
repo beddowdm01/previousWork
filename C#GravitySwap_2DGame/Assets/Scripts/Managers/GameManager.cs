@@ -7,9 +7,13 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public GameObject completeLevelUI;
 
-    bool gameHasEnded = false;
-    public float restartDelay = 1f;
-    public float completeDelay = 2f;
+    private bool gameHasEnded = false;
+
+    [SerializeField]
+    private float restartDelay = 1f;
+
+    [SerializeField]
+    private float completeDelay = 2f;
 
     private void Awake()
     {

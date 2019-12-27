@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject levelSelect;
-    public GameObject main;
+    [SerializeField]
+    private GameObject levelSelect = null;
+    [SerializeField]
+    private GameObject main = null;
     // Start is called before the first frame update
     public void StartGame()
     {
@@ -19,6 +21,11 @@ public class MainMenu : MonoBehaviour
             levelSelect.SetActive(true);
             main.SetActive(false);
         }
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 
 }

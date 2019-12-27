@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5049383496711270534}
   - component: {fileID: 5049383496711270533}
   m_Layer: 0
-  m_Name: Arrow (2)
+  m_Name: ReverseArrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -93,6 +94,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98dc12e125a1d54d982ad4816c5bcba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pic: {fileID: 5049383496711270534}
+  spriteRenderer: {fileID: 5049383496711270534}
   gArrow: {fileID: 21300000, guid: 614ca16cabc639545a799c774a011ca9, type: 3}
   rArrow: {fileID: 21300000, guid: 9d103e44ff53fcb4681cdb02de253097, type: 3}

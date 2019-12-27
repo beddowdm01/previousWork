@@ -4,22 +4,25 @@ using UnityEngine;
 
 public class PauseTimer : MonoBehaviour
 {
-    public static bool GameIsPaused = false;
+    public static bool PauseTimerActive = false;
     public Text timerText;
     public float timer = 3f;
-    public GameObject pauseTimer;
+
+    [SerializeField]
+    private GameObject pauseTimer = null;
 
     private bool finishedCount = false;
 
     void Awake()
     {
-        startTimer();
+        StartTimer(3f);
     }
 
     void Update()
     {
-        if (pauseTimer.activeInHierarchy == true)
+        if (pauseTimer.activeInHierarchy == true && PauseTimerActive)
         {
+            Time.timeScale = 0f;
             timer -= Time.unscaledDeltaTime;//uses unscaled time to count down timer during pause.
             timerText.text = timer.ToString("0");
             if (timer <= 0 && finishedCount == false)
@@ -34,13 +37,16 @@ public class PauseTimer : MonoBehaviour
     {
         pauseTimer.SetActive(false);
         Time.timeScale = 1f;
-        GameIsPaused = false;
+        PauseTimerActive = false;
+        PlayerMovement.Instance.InputsEnabled = true;
     }
     
-    void startTimer()
+    public void StartTimer(float time)
     {
+        timer = time;
         pauseTimer.SetActive(true);
         Time.timeScale = 0f;
-        GameIsPaused = true;
+        PauseTimerActive = true;
+        PlayerMovement.Instance.InputsEnabled = false;
     }
 }

@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InputsEnabled: 1
-  sidewaysForce: 900
+  sidewaysForce: 1000
   boostForce: 2000
   maxSpeed: 75
   rb: {fileID: 4722641548475948003}
