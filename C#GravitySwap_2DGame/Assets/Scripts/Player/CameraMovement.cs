@@ -37,7 +37,7 @@ public class CameraMovement : MonoBehaviour
         player = PlayerMovement.Instance;
     }
 
-    void Update()
+    void LateUpdate()
     {
         if (player != null) //if the player game object is active
         {
