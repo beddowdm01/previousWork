@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\LevelSelect.cs" />
+    <Compile Include="Assets\Scripts\Blackhole\BlackholeGravity.cs" />
     <Compile Include="Assets\Scripts\Blackhole\BlackholeMovement.cs" />
     <Compile Include="Assets\Scripts\Blackhole\BlackholeSettings.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />

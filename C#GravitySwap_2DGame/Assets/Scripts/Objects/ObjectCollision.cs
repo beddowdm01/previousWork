@@ -10,6 +10,8 @@ public class ObjectCollision : MonoBehaviour
         if (collisionInfo.tag == "mainBlackhole" || collisionInfo.tag == "blackhole")//if collider is a blackhole
         {
             FindObjectOfType<AudioManager>().Play("Explosion");
+            BlackholeGravity.Instance.RemoveRigidBody(GetComponent<Rigidbody2D>());
+
             Destroy(gameObject);
             ParticleSystem sparks = Instantiate(fx, transform.position, Quaternion.identity);
         }

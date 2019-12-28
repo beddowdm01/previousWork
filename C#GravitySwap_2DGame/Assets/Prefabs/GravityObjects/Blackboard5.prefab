@@ -13,11 +13,10 @@ GameObject:
   - component: {fileID: 8077283921625887143}
   - component: {fileID: 1982072283627042246}
   - component: {fileID: -5693394985749139901}
-  - component: {fileID: -5714891073970144700}
   - component: {fileID: 4892318458607707084}
   m_Layer: 0
-  m_Name: bb5
-  m_TagString: Wall
+  m_Name: Blackboard5
+  m_TagString: GravityObjects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,23 +146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floorHeight: -49
   roofHeight: 34
---- !u!114 &-5714891073970144700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7082690656483680529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a3827d3fad1b0b4f81a6411fd5b5bb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 8077283921625887143}
-  force: 10
-  direction: {x: 0, y: 0}
-  tt: {x: 0, y: 0}
-  range: 20
 --- !u!114 &4892318458607707084
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -40,6 +40,7 @@ public class PlayerCharacter : MonoBehaviour
                 GameManager.Instance.EndGame();
                 ParticleSystem atoms = Instantiate(blackholefx, transform.position, Quaternion.identity);
                 CameraMovement.Instance.Shake();
+                BlackholeGravity.Instance.RemoveRigidBody(GetComponent<Rigidbody2D>());
             }
             else
             {
@@ -55,6 +56,7 @@ public class PlayerCharacter : MonoBehaviour
                 GameManager.Instance.EndGame();
                 ParticleSystem sparks = Instantiate(electricfx, transform.position, Quaternion.identity);
                 CameraMovement.Instance.Shake();
+                BlackholeGravity.Instance.RemoveRigidBody(GetComponent<Rigidbody2D>());
             }
             else
             {
@@ -68,6 +70,7 @@ public class PlayerCharacter : MonoBehaviour
             GameManager.Instance.EndGame();
             ParticleSystem atoms = Instantiate(blackholefx, transform.position, Quaternion.identity);
             CameraMovement.Instance.Shake();
+            BlackholeGravity.Instance.RemoveRigidBody(GetComponent<Rigidbody2D>());
         }
     }
 

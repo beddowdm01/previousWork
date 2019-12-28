@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 11447761806280717}
   - component: {fileID: 11447761806280705}
   - component: {fileID: 11447761806280706}
-  - component: {fileID: 11447761806280707}
   - component: {fileID: 11447761806280704}
   - component: {fileID: 61715870719355774}
   - component: {fileID: 11447761806280716}
   m_Layer: 0
   m_Name: TestTube
-  m_TagString: Wall
+  m_TagString: GravityObjects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +47,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 3
+  m_Mass: 4
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -107,23 +106,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &11447761806280707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11447761806280710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a3827d3fad1b0b4f81a6411fd5b5bb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 11447761806280705}
-  force: 10
-  direction: {x: 0, y: 0}
-  tt: {x: 0, y: 0}
-  range: 60
 --- !u!114 &11447761806280704
 MonoBehaviour:
   m_ObjectHideFlags: 0

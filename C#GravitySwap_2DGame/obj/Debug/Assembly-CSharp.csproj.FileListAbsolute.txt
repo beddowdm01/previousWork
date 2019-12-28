@@ -1,2 +1,4 @@
 C:\Users\beddo\Desktop\Unity Projects\GravitySwap\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 C:\Users\beddo\Desktop\Unity Projects\GravitySwap\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\beddo\Documents\Work\previousWork\C#GravitySwap_2DGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\beddo\Documents\Work\previousWork\C#GravitySwap_2DGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

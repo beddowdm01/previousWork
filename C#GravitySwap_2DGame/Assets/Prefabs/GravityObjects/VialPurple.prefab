@@ -12,12 +12,11 @@ GameObject:
   - component: {fileID: 342882026437592989}
   - component: {fileID: 4578953484726105181}
   - component: {fileID: 6057991572159623228}
-  - component: {fileID: 429858770374473429}
   - component: {fileID: -324105630467053489}
   - component: {fileID: 523342014398710306}
   m_Layer: 0
-  m_Name: vialP
-  m_TagString: Wall
+  m_Name: VialPurple
+  m_TagString: GravityObjects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,23 +132,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0985801}
   m_EdgeRadius: 0
---- !u!114 &429858770374473429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3303731867709007083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a3827d3fad1b0b4f81a6411fd5b5bb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 4578953484726105181}
-  force: 10
-  direction: {x: 0, y: 0}
-  tt: {x: 0, y: 0}
-  range: 20
 --- !u!114 &-324105630467053489
 MonoBehaviour:
   m_ObjectHideFlags: 0

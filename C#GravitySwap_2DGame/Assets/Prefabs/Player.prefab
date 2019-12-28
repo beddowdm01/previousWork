@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 4722641548475948003}
   - component: {fileID: -1179820346315203608}
   - component: {fileID: 4722641548475948004}
-  - component: {fileID: 4722641548475948006}
   - component: {fileID: 4722641548475948024}
   - component: {fileID: 4722641548475948001}
   m_Layer: 0
@@ -190,23 +189,6 @@ MonoBehaviour:
   blackholefx: {fileID: 4736471530978286862, guid: eba568583ae8c014496d5ea1f8f1dabc,
     type: 3}
   shieldRenderer: {fileID: 4073823442306311554}
---- !u!114 &4722641548475948006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4722641548475948000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a3827d3fad1b0b4f81a6411fd5b5bb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 4722641548475948003}
-  force: 5
-  direction: {x: 0, y: 0}
-  tt: {x: 0, y: 0}
-  range: 50
 --- !u!95 &4722641548475948024
 Animator:
   serializedVersion: 3

@@ -10,6 +10,7 @@ TagManager:
   - electricWall
   - Wall
   - mainBlackhole
+  - GravityObjects
   layers:
   - Default
   - TransparentFX
